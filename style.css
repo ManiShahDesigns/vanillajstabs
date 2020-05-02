@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Noto Serif", serif;
+}
+
+p {
+  font-family: "Noto Serif", serif;
+}
+
+.container {
+  padding: 3rem 0;
+}
+
+.app-title {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.app-wrapper {
+  max-width: 1140px;
+  margin: 15px;
+}
+
+.australia {
+  border-radius: 2rem;
+}
+
+.australia-content {
+  padding: 2rem 1.5rem;
+  background-color: whitesmoke;
+}
+
+.tabs {
+  display: none;
+}
+
+.tabs.active {
+  display: block;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tab-button {
+  padding: 1rem 0;
+  border: none;
+  font-size: 1rem;
+  display: block;
+  cursor: pointer;
+  background-color: papayawhip;
+}
+
+.tab-button.active {
+  background-color: whitesmoke;
+}
+
+h6 {
+  margin-top: 20px;
+}
